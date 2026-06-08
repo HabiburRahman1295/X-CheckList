@@ -136,8 +136,4 @@ python scripts/summarize_results.py
 
 Python, PyTorch, Hugging Face Transformers, datasets, scikit-learn, pandas, NumPy, Matplotlib, Captum, NLP model evaluation, attribution analysis, and counterfactual evaluation.
 
-## Suggested GitHub Topics
-
-`nlp`, `explainable-ai`, `model-evaluation`, `llm-evaluation`, `counterfactual-evaluation`, `responsible-ai`, `pytorch`, `huggingface`
-
 

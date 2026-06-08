@@ -1,0 +1,52 @@
+{
+  "datasets": [
+    "sst2",
+    "imdb",
+    "mnli",
+    "snli",
+    "qqp",
+    "mrpc"
+  ],
+  "models": [
+    "distilbert",
+    "bert",
+    "roberta"
+  ],
+  "sample_size_per_dataset": 500,
+  "template_cases_per_capability": 300,
+  "max_explain_cases_per_combo": 300,
+  "explanation_methods": [
+    "occlusion",
+    "gradient",
+    "integrated_gradients"
+  ],
+  "use_shap": false,
+  "use_integrated_gradients": true,
+  "fast_mode": false,
+  "output_dir": "/content/outputs",
+  "figures_dir_name": "figures",
+  "random_seed": 42,
+  "batch_size": 16,
+  "max_length": 128,
+  "counterfactual_cs_threshold": 0.2,
+  "am_high_threshold": 0.6,
+  "bootstrap_samples": 1000,
+  "human_eval_sample_size": 75,
+  "human_eval_methods": [
+    "X-CheckList",
+    "Standard CheckList",
+    "CheckList + Attribution",
+    "CheckList + Counterfactual"
+  ],
+  "human_eval_annotator_ids": [
+    "A1",
+    "A2"
+  ],
+  "human_eval_strata_cols": [
+    "dataset",
+    "model",
+    "capability"
+  ],
+  "save_to_google_drive": true,
+  "google_drive_output_dir": "/content/drive/MyDrive/X_CheckList_outputs"
+}

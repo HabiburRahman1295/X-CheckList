@@ -1,0 +1,229 @@
+method,dataset,task,model,capability,failure_detection,attribution_evidence,counterfactual_validation,evfs_available,failure_reason,failure_rate,mean_AM,mean_CS,mean_EVFS,diagnostic_coverage_score
+Standard CheckList,imdb,sentiment,bert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,bert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,bert,entity_invariance,True,False,True,False,partial,0.0,,0.0017901360988616943,,0.5
+X-CheckList,imdb,sentiment,bert,entity_invariance,True,True,True,True,yes,0.0,0.0,0.0017901360988616943,0.0,1.0
+Standard CheckList,imdb,sentiment,bert,negation,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,bert,negation,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,bert,negation,True,False,True,False,partial,0.0,,0.9583657954033697,,0.5
+X-CheckList,imdb,sentiment,bert,negation,True,True,True,True,yes,0.0,0.0,0.9583657954033697,0.0,1.0
+Standard CheckList,imdb,sentiment,bert,robustness,True,False,False,False,no,0.12,,,,0.2
+CheckList + Attribution,imdb,sentiment,bert,robustness,True,True,False,False,partial,0.12,0.06,,,0.5
+CheckList + Counterfactual,imdb,sentiment,bert,robustness,True,False,True,False,partial,0.12,,0.04317819542552267,,0.5
+X-CheckList,imdb,sentiment,bert,robustness,True,True,True,True,yes,0.12,0.06,0.04317819542552267,0.00767924882893567,1.0
+Standard CheckList,imdb,sentiment,bert,temporal_sentiment,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,bert,temporal_sentiment,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,bert,temporal_sentiment,True,False,True,False,partial,0.0,,0.9586268866478349,,0.5
+X-CheckList,imdb,sentiment,bert,temporal_sentiment,True,True,True,True,yes,0.0,0.0,0.9586268866478349,0.0,1.0
+Standard CheckList,imdb,sentiment,distilbert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,distilbert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,distilbert,entity_invariance,True,False,True,False,partial,0.0,,0.0009478926658630371,,0.5
+X-CheckList,imdb,sentiment,distilbert,entity_invariance,True,True,True,True,yes,0.0,0.0,0.0009478926658630371,0.0,1.0
+Standard CheckList,imdb,sentiment,distilbert,negation,True,False,False,False,no,0.35,,,,0.2
+CheckList + Attribution,imdb,sentiment,distilbert,negation,True,True,False,False,partial,0.35,0.27684204121672495,,,0.5
+CheckList + Counterfactual,imdb,sentiment,distilbert,negation,True,False,True,False,partial,0.35,,0.6394840324879624,,0.5
+X-CheckList,imdb,sentiment,distilbert,negation,True,True,True,True,yes,0.35,0.27684204121672495,0.6394840324879624,0.23644263022800205,1.0
+Standard CheckList,imdb,sentiment,distilbert,robustness,True,False,False,False,no,0.17333333333333334,,,,0.2
+CheckList + Attribution,imdb,sentiment,distilbert,robustness,True,True,False,False,partial,0.17333333333333334,0.08666666666666667,,,0.5
+CheckList + Counterfactual,imdb,sentiment,distilbert,robustness,True,False,True,False,partial,0.17333333333333334,,0.04378161002726604,,0.5
+X-CheckList,imdb,sentiment,distilbert,robustness,True,True,True,True,yes,0.17333333333333334,0.08666666666666667,0.04378161002726604,0.007787210105452687,1.0
+Standard CheckList,imdb,sentiment,distilbert,temporal_sentiment,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,distilbert,temporal_sentiment,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,distilbert,temporal_sentiment,True,False,True,False,partial,0.0,,0.7592567836400121,,0.5
+X-CheckList,imdb,sentiment,distilbert,temporal_sentiment,True,True,True,True,yes,0.0,0.0,0.7592567836400121,0.0,1.0
+Standard CheckList,imdb,sentiment,roberta,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,roberta,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,roberta,entity_invariance,True,False,True,False,partial,0.0,,0.010249212384223938,,0.5
+X-CheckList,imdb,sentiment,roberta,entity_invariance,True,True,True,True,yes,0.0,0.0,0.010249212384223938,0.0,1.0
+Standard CheckList,imdb,sentiment,roberta,negation,True,False,False,False,no,0.15,,,,0.2
+CheckList + Attribution,imdb,sentiment,roberta,negation,True,True,False,False,partial,0.15,0.12312337038218993,,,0.5
+CheckList + Counterfactual,imdb,sentiment,roberta,negation,True,False,True,False,partial,0.15,,0.778663748622057,,0.5
+X-CheckList,imdb,sentiment,roberta,negation,True,True,True,True,yes,0.15,0.12312337038218993,0.778663748622057,0.088068267711862,1.0
+Standard CheckList,imdb,sentiment,roberta,robustness,True,False,False,False,no,0.08333333333333333,,,,0.2
+CheckList + Attribution,imdb,sentiment,roberta,robustness,True,True,False,False,partial,0.08333333333333333,0.041666666666666664,,,0.5
+CheckList + Counterfactual,imdb,sentiment,roberta,robustness,True,False,True,False,partial,0.08333333333333333,,0.0236390758282505,,0.5
+X-CheckList,imdb,sentiment,roberta,robustness,True,True,True,True,yes,0.08333333333333333,0.041666666666666664,0.0236390758282505,0.0025587112569094945,1.0
+Standard CheckList,imdb,sentiment,roberta,temporal_sentiment,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,imdb,sentiment,roberta,temporal_sentiment,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,imdb,sentiment,roberta,temporal_sentiment,True,False,True,False,partial,0.0,,0.7373367847758345,,0.5
+X-CheckList,imdb,sentiment,roberta,temporal_sentiment,True,True,True,True,yes,0.0,0.0,0.7373367847758345,0.0,1.0
+Standard CheckList,mnli,nli,bert,contradiction,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,mnli,nli,bert,contradiction,True,True,False,False,partial,1.0,0.8323438382527023,,,0.5
+CheckList + Counterfactual,mnli,nli,bert,contradiction,True,False,True,False,partial,1.0,,0.002105816332914401,,0.5
+X-CheckList,mnli,nli,bert,contradiction,True,True,True,True,yes,1.0,0.8323438382527023,0.002105816332914401,0.8307210903287906,1.0
+Standard CheckList,mnli,nli,bert,lexical_overlap,True,False,False,False,no,0.25,,,,0.2
+CheckList + Attribution,mnli,nli,bert,lexical_overlap,True,True,False,False,partial,0.25,0.195577437014598,,,0.5
+CheckList + Counterfactual,mnli,nli,bert,lexical_overlap,True,False,True,False,partial,0.25,,0.27933247154578567,,0.5
+X-CheckList,mnli,nli,bert,lexical_overlap,True,True,True,True,yes,0.25,0.195577437014598,0.27933247154578567,0.006298372193330689,1.0
+Standard CheckList,mnli,nli,bert,semantic_role_sensitivity,True,False,False,False,no,0.93,,,,0.2
+CheckList + Attribution,mnli,nli,bert,semantic_role_sensitivity,True,True,False,False,partial,0.93,0.465,,,0.5
+CheckList + Counterfactual,mnli,nli,bert,semantic_role_sensitivity,True,False,True,False,partial,0.93,,0.0,,0.5
+X-CheckList,mnli,nli,bert,semantic_role_sensitivity,True,True,True,True,yes,0.93,0.465,0.0,0.0,1.0
+Standard CheckList,mnli,nli,distilbert,contradiction,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,mnli,nli,distilbert,contradiction,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,mnli,nli,distilbert,contradiction,True,False,True,False,partial,0.0,,0.9984446794042015,,0.5
+X-CheckList,mnli,nli,distilbert,contradiction,True,True,True,True,yes,0.0,0.0,0.9984446794042015,0.0,1.0
+Standard CheckList,mnli,nli,distilbert,lexical_overlap,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,mnli,nli,distilbert,lexical_overlap,True,True,False,False,partial,1.0,0.7196479074950031,,,0.5
+CheckList + Counterfactual,mnli,nli,distilbert,lexical_overlap,True,False,True,False,partial,1.0,,0.001204240950755775,,0.5
+X-CheckList,mnli,nli,distilbert,lexical_overlap,True,True,True,True,yes,1.0,0.7196479074950031,0.001204240950755775,0.7187510286021719,1.0
+Standard CheckList,mnli,nli,distilbert,semantic_role_sensitivity,True,False,False,False,no,0.14666666666666667,,,,0.2
+CheckList + Attribution,mnli,nli,distilbert,semantic_role_sensitivity,True,True,False,False,partial,0.14666666666666667,0.07333333333333333,,,0.5
+CheckList + Counterfactual,mnli,nli,distilbert,semantic_role_sensitivity,True,False,True,False,partial,0.14666666666666667,,0.0,,0.5
+X-CheckList,mnli,nli,distilbert,semantic_role_sensitivity,True,True,True,True,yes,0.14666666666666667,0.07333333333333333,0.0,0.0,1.0
+Standard CheckList,mnli,nli,roberta,contradiction,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,mnli,nli,roberta,contradiction,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,mnli,nli,roberta,contradiction,True,False,True,False,partial,0.0,,0.9977784236543812,,0.5
+X-CheckList,mnli,nli,roberta,contradiction,True,True,True,True,yes,0.0,0.0,0.9977784236543812,0.0,1.0
+Standard CheckList,mnli,nli,roberta,lexical_overlap,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,mnli,nli,roberta,lexical_overlap,True,True,False,False,partial,1.0,0.7479331406544841,,,0.5
+CheckList + Counterfactual,mnli,nli,roberta,lexical_overlap,True,False,True,False,partial,1.0,,0.0022449965472333133,,0.5
+X-CheckList,mnli,nli,roberta,lexical_overlap,True,True,True,True,yes,1.0,0.7479331406544841,0.0022449965472333133,0.7462561929916688,1.0
+Standard CheckList,mnli,nli,roberta,semantic_role_sensitivity,True,False,False,False,no,0.09666666666666666,,,,0.2
+CheckList + Attribution,mnli,nli,roberta,semantic_role_sensitivity,True,True,False,False,partial,0.09666666666666666,0.04833333333333333,,,0.5
+CheckList + Counterfactual,mnli,nli,roberta,semantic_role_sensitivity,True,False,True,False,partial,0.09666666666666666,,0.0,,0.5
+X-CheckList,mnli,nli,roberta,semantic_role_sensitivity,True,True,True,True,yes,0.09666666666666666,0.04833333333333333,0.0,0.0,1.0
+Standard CheckList,mrpc,paraphrase,bert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,bert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,bert,entity_invariance,True,False,True,False,partial,0.0,,0.017090007662773132,,0.5
+X-CheckList,mrpc,paraphrase,bert,entity_invariance,True,True,True,True,yes,0.0,0.0,0.017090007662773132,0.0,1.0
+Standard CheckList,mrpc,paraphrase,bert,semantic_equivalence,True,False,False,False,no,0.12,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,bert,semantic_equivalence,True,True,False,False,partial,0.12,0.06,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,bert,semantic_equivalence,True,False,True,False,partial,0.12,,0.0,,0.5
+X-CheckList,mrpc,paraphrase,bert,semantic_equivalence,True,True,True,True,yes,0.12,0.06,0.0,0.0,1.0
+Standard CheckList,mrpc,paraphrase,bert,word_order_sensitivity,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,bert,word_order_sensitivity,True,True,False,False,partial,1.0,0.7528865447552638,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,bert,word_order_sensitivity,True,False,True,False,partial,1.0,,0.0006769640992085139,,0.5
+X-CheckList,mrpc,paraphrase,bert,word_order_sensitivity,True,True,True,True,yes,1.0,0.7528865447552638,0.0006769640992085139,0.7523969852806408,1.0
+Standard CheckList,mrpc,paraphrase,distilbert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,distilbert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,distilbert,entity_invariance,True,False,True,False,partial,0.0,,0.02960258722305298,,0.5
+X-CheckList,mrpc,paraphrase,distilbert,entity_invariance,True,True,True,True,yes,0.0,0.0,0.02960258722305298,0.0,1.0
+Standard CheckList,mrpc,paraphrase,distilbert,semantic_equivalence,True,False,False,False,no,0.13333333333333333,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,distilbert,semantic_equivalence,True,True,False,False,partial,0.13333333333333333,0.06666666666666667,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,distilbert,semantic_equivalence,True,False,True,False,partial,0.13333333333333333,,0.0,,0.5
+X-CheckList,mrpc,paraphrase,distilbert,semantic_equivalence,True,True,True,True,yes,0.13333333333333333,0.06666666666666667,0.0,0.0,1.0
+Standard CheckList,mrpc,paraphrase,distilbert,word_order_sensitivity,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,distilbert,word_order_sensitivity,True,True,False,False,partial,1.0,0.7436611224931194,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,distilbert,word_order_sensitivity,True,False,True,False,partial,1.0,,0.005072332918643951,,0.5
+X-CheckList,mrpc,paraphrase,distilbert,word_order_sensitivity,True,True,True,True,yes,1.0,0.7436611224931194,0.005072332918643951,0.7398680019461595,1.0
+Standard CheckList,mrpc,paraphrase,roberta,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,roberta,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,roberta,entity_invariance,True,False,True,False,partial,0.0,,6.920099258422852e-05,,0.5
+X-CheckList,mrpc,paraphrase,roberta,entity_invariance,True,True,True,True,yes,0.0,0.0,6.920099258422852e-05,0.0,1.0
+Standard CheckList,mrpc,paraphrase,roberta,semantic_equivalence,True,False,False,False,no,0.08333333333333333,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,roberta,semantic_equivalence,True,True,False,False,partial,0.08333333333333333,0.041666666666666664,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,roberta,semantic_equivalence,True,False,True,False,partial,0.08333333333333333,,0.0,,0.5
+X-CheckList,mrpc,paraphrase,roberta,semantic_equivalence,True,True,True,True,yes,0.08333333333333333,0.041666666666666664,0.0,0.0,1.0
+Standard CheckList,mrpc,paraphrase,roberta,word_order_sensitivity,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,mrpc,paraphrase,roberta,word_order_sensitivity,True,True,False,False,partial,1.0,0.747353537830528,,,0.5
+CheckList + Counterfactual,mrpc,paraphrase,roberta,word_order_sensitivity,True,False,True,False,partial,1.0,,0.00012398286101718745,,0.5
+X-CheckList,mrpc,paraphrase,roberta,word_order_sensitivity,True,True,True,True,yes,1.0,0.747353537830528,0.00012398286101718745,0.7472593806633991,1.0
+Standard CheckList,qqp,paraphrase,bert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,qqp,paraphrase,bert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,qqp,paraphrase,bert,entity_invariance,True,False,True,False,partial,0.0,,0.004321977496147156,,0.5
+X-CheckList,qqp,paraphrase,bert,entity_invariance,True,True,True,True,yes,0.0,0.0,0.004321977496147156,0.0,1.0
+Standard CheckList,qqp,paraphrase,bert,semantic_equivalence,True,False,False,False,no,0.08,,,,0.2
+CheckList + Attribution,qqp,paraphrase,bert,semantic_equivalence,True,True,False,False,partial,0.08,0.04,,,0.5
+CheckList + Counterfactual,qqp,paraphrase,bert,semantic_equivalence,True,False,True,False,partial,0.08,,0.0,,0.5
+X-CheckList,qqp,paraphrase,bert,semantic_equivalence,True,True,True,True,yes,0.08,0.04,0.0,0.0,1.0
+Standard CheckList,qqp,paraphrase,bert,word_order_sensitivity,True,False,False,False,no,0.6666666666666666,,,,0.2
+CheckList + Attribution,qqp,paraphrase,bert,word_order_sensitivity,True,True,False,False,partial,0.6666666666666666,0.5417319056206776,,,0.5
+CheckList + Counterfactual,qqp,paraphrase,bert,word_order_sensitivity,True,False,True,False,partial,0.6666666666666666,,0.4334332936753829,,0.5
+X-CheckList,qqp,paraphrase,bert,word_order_sensitivity,True,True,True,True,yes,0.6666666666666666,0.5417319056206776,0.4334332936753829,0.3450628817470551,1.0
+Standard CheckList,qqp,paraphrase,distilbert,entity_invariance,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,qqp,paraphrase,distilbert,entity_invariance,True,True,False,False,partial,1.0,0.6983062994867034,,,0.5
+CheckList + Counterfactual,qqp,paraphrase,distilbert,entity_invariance,True,False,True,False,partial,1.0,,0.01371803879737854,,0.5
+X-CheckList,qqp,paraphrase,distilbert,entity_invariance,True,True,True,True,yes,1.0,0.6983062994867034,0.01371803879737854,0.009669936086691018,1.0
+Standard CheckList,qqp,paraphrase,distilbert,semantic_equivalence,True,False,False,False,no,0.4766666666666667,,,,0.2
+CheckList + Attribution,qqp,paraphrase,distilbert,semantic_equivalence,True,True,False,False,partial,0.4766666666666667,0.23833333333333334,,,0.5
+CheckList + Counterfactual,qqp,paraphrase,distilbert,semantic_equivalence,True,False,True,False,partial,0.4766666666666667,,0.0,,0.5
+X-CheckList,qqp,paraphrase,distilbert,semantic_equivalence,True,True,True,True,yes,0.4766666666666667,0.23833333333333334,0.0,0.0,1.0
+Standard CheckList,qqp,paraphrase,distilbert,word_order_sensitivity,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,qqp,paraphrase,distilbert,word_order_sensitivity,True,True,False,False,partial,1.0,0.7497619010506478,,,0.5
+CheckList + Counterfactual,qqp,paraphrase,distilbert,word_order_sensitivity,True,False,True,False,partial,1.0,,0.013817843049764633,,0.5
+X-CheckList,qqp,paraphrase,distilbert,word_order_sensitivity,True,True,True,True,yes,1.0,0.7497619010506478,0.013817843049764633,0.7392638216706602,1.0
+Standard CheckList,snli,nli,bert,contradiction,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,snli,nli,bert,contradiction,True,True,False,False,partial,1.0,0.8323438382527023,,,0.5
+CheckList + Counterfactual,snli,nli,bert,contradiction,True,False,True,False,partial,1.0,,0.0021058164347778074,,0.5
+X-CheckList,snli,nli,bert,contradiction,True,True,True,True,yes,1.0,0.8323438382527023,0.0021058164347778074,0.830721090052901,1.0
+Standard CheckList,snli,nli,bert,lexical_overlap,True,False,False,False,no,0.25,,,,0.2
+CheckList + Attribution,snli,nli,bert,lexical_overlap,True,True,False,False,partial,0.25,0.195577437014598,,,0.5
+CheckList + Counterfactual,snli,nli,bert,lexical_overlap,True,False,True,False,partial,0.25,,0.2793324450030923,,0.5
+X-CheckList,snli,nli,bert,lexical_overlap,True,True,True,True,yes,0.25,0.195577437014598,0.2793324450030923,0.006298369643291139,1.0
+Standard CheckList,snli,nli,bert,semantic_role_sensitivity,True,False,False,False,no,0.9233333333333333,,,,0.2
+CheckList + Attribution,snli,nli,bert,semantic_role_sensitivity,True,True,False,False,partial,0.9233333333333333,0.46166666666666667,,,0.5
+CheckList + Counterfactual,snli,nli,bert,semantic_role_sensitivity,True,False,True,False,partial,0.9233333333333333,,0.0,,0.5
+X-CheckList,snli,nli,bert,semantic_role_sensitivity,True,True,True,True,yes,0.9233333333333333,0.46166666666666667,0.0,0.0,1.0
+Standard CheckList,snli,nli,distilbert,contradiction,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,snli,nli,distilbert,contradiction,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,snli,nli,distilbert,contradiction,True,False,True,False,partial,0.0,,0.9984446794333053,,0.5
+X-CheckList,snli,nli,distilbert,contradiction,True,True,True,True,yes,0.0,0.0,0.9984446794333053,0.0,1.0
+Standard CheckList,snli,nli,distilbert,lexical_overlap,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,snli,nli,distilbert,lexical_overlap,True,True,False,False,partial,1.0,0.7196479074950031,,,0.5
+CheckList + Counterfactual,snli,nli,distilbert,lexical_overlap,True,False,True,False,partial,1.0,,0.0012042416201438755,,0.5
+X-CheckList,snli,nli,distilbert,lexical_overlap,True,True,True,True,yes,1.0,0.7196479074950031,0.0012042416201438755,0.7187510280971545,1.0
+Standard CheckList,snli,nli,distilbert,semantic_role_sensitivity,True,False,False,False,no,0.23666666666666666,,,,0.2
+CheckList + Attribution,snli,nli,distilbert,semantic_role_sensitivity,True,True,False,False,partial,0.23666666666666666,0.11833333333333333,,,0.5
+CheckList + Counterfactual,snli,nli,distilbert,semantic_role_sensitivity,True,False,True,False,partial,0.23666666666666666,,0.0,,0.5
+X-CheckList,snli,nli,distilbert,semantic_role_sensitivity,True,True,True,True,yes,0.23666666666666666,0.11833333333333333,0.0,0.0,1.0
+Standard CheckList,snli,nli,roberta,contradiction,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,snli,nli,roberta,contradiction,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,snli,nli,roberta,contradiction,True,False,True,False,partial,0.0,,0.9977784226066433,,0.5
+X-CheckList,snli,nli,roberta,contradiction,True,True,True,True,yes,0.0,0.0,0.9977784226066433,0.0,1.0
+Standard CheckList,snli,nli,roberta,lexical_overlap,True,False,False,False,no,1.0,,,,0.2
+CheckList + Attribution,snli,nli,roberta,lexical_overlap,True,True,False,False,partial,1.0,0.7479331406544841,,,0.5
+CheckList + Counterfactual,snli,nli,roberta,lexical_overlap,True,False,True,False,partial,1.0,,0.0022449932293966413,,0.5
+X-CheckList,snli,nli,roberta,lexical_overlap,True,True,True,True,yes,1.0,0.7479331406544841,0.0022449932293966413,0.7462561956075823,1.0
+Standard CheckList,snli,nli,roberta,semantic_role_sensitivity,True,False,False,False,no,0.11666666666666667,,,,0.2
+CheckList + Attribution,snli,nli,roberta,semantic_role_sensitivity,True,True,False,False,partial,0.11666666666666667,0.058333333333333334,,,0.5
+CheckList + Counterfactual,snli,nli,roberta,semantic_role_sensitivity,True,False,True,False,partial,0.11666666666666667,,0.0,,0.5
+X-CheckList,snli,nli,roberta,semantic_role_sensitivity,True,True,True,True,yes,0.11666666666666667,0.058333333333333334,0.0,0.0,1.0
+Standard CheckList,sst2,sentiment,bert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,bert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,bert,entity_invariance,True,False,True,False,partial,0.0,,0.0001996159553527832,,0.5
+X-CheckList,sst2,sentiment,bert,entity_invariance,True,True,True,True,yes,0.0,0.0,0.0001996159553527832,0.0,1.0
+Standard CheckList,sst2,sentiment,bert,negation,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,bert,negation,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,bert,negation,True,False,True,False,partial,0.0,,0.982380385894794,,0.5
+X-CheckList,sst2,sentiment,bert,negation,True,True,True,True,yes,0.0,0.0,0.982380385894794,0.0,1.0
+Standard CheckList,sst2,sentiment,bert,robustness,True,False,False,False,no,0.05333333333333334,,,,0.2
+CheckList + Attribution,sst2,sentiment,bert,robustness,True,True,False,False,partial,0.05333333333333334,0.02666666666666667,,,0.5
+CheckList + Counterfactual,sst2,sentiment,bert,robustness,True,False,True,False,partial,0.05333333333333334,,0.022471981277534116,,0.5
+X-CheckList,sst2,sentiment,bert,robustness,True,True,True,True,yes,0.05333333333333334,0.02666666666666667,0.022471981277534116,0.0017675376710637161,1.0
+Standard CheckList,sst2,sentiment,bert,temporal_sentiment,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,bert,temporal_sentiment,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,bert,temporal_sentiment,True,False,True,False,partial,0.0,,0.9350394271896221,,0.5
+X-CheckList,sst2,sentiment,bert,temporal_sentiment,True,True,True,True,yes,0.0,0.0,0.9350394271896221,0.0,1.0
+Standard CheckList,sst2,sentiment,distilbert,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,distilbert,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,distilbert,entity_invariance,True,False,True,False,partial,0.0,,2.175569534301758e-06,,0.5
+X-CheckList,sst2,sentiment,distilbert,entity_invariance,True,True,True,True,yes,0.0,0.0,2.175569534301758e-06,0.0,1.0
+Standard CheckList,sst2,sentiment,distilbert,negation,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,distilbert,negation,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,distilbert,negation,True,False,True,False,partial,0.0,,0.9896025509155152,,0.5
+X-CheckList,sst2,sentiment,distilbert,negation,True,True,True,True,yes,0.0,0.0,0.9896025509155152,0.0,1.0
+Standard CheckList,sst2,sentiment,distilbert,robustness,True,False,False,False,no,0.07666666666666666,,,,0.2
+CheckList + Attribution,sst2,sentiment,distilbert,robustness,True,True,False,False,partial,0.07666666666666666,0.03833333333333333,,,0.5
+CheckList + Counterfactual,sst2,sentiment,distilbert,robustness,True,False,True,False,partial,0.07666666666666666,,0.036952907957408264,,0.5
+X-CheckList,sst2,sentiment,distilbert,robustness,True,True,True,True,yes,0.07666666666666666,0.03833333333333333,0.036952907957408264,0.005554050043671547,1.0
+Standard CheckList,sst2,sentiment,distilbert,temporal_sentiment,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,distilbert,temporal_sentiment,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,distilbert,temporal_sentiment,True,False,True,False,partial,0.0,,0.9904886117728893,,0.5
+X-CheckList,sst2,sentiment,distilbert,temporal_sentiment,True,True,True,True,yes,0.0,0.0,0.9904886117728893,0.0,1.0
+Standard CheckList,sst2,sentiment,roberta,entity_invariance,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,roberta,entity_invariance,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,roberta,entity_invariance,True,False,True,False,partial,0.0,,0.002450406551361084,,0.5
+X-CheckList,sst2,sentiment,roberta,entity_invariance,True,True,True,True,yes,0.0,0.0,0.002450406551361084,0.0,1.0
+Standard CheckList,sst2,sentiment,roberta,negation,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,roberta,negation,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,roberta,negation,True,False,True,False,partial,0.0,,0.9795880307909102,,0.5
+X-CheckList,sst2,sentiment,roberta,negation,True,True,True,True,yes,0.0,0.0,0.9795880307909102,0.0,1.0
+Standard CheckList,sst2,sentiment,roberta,robustness,True,False,False,False,no,0.043333333333333335,,,,0.2
+CheckList + Attribution,sst2,sentiment,roberta,robustness,True,True,False,False,partial,0.043333333333333335,0.021666666666666667,,,0.5
+CheckList + Counterfactual,sst2,sentiment,roberta,robustness,True,False,True,False,partial,0.043333333333333335,,0.019681028897563617,,0.5
+X-CheckList,sst2,sentiment,roberta,robustness,True,True,True,True,yes,0.043333333333333335,0.021666666666666667,0.019681028897563617,0.002024433733895421,1.0
+Standard CheckList,sst2,sentiment,roberta,temporal_sentiment,True,False,False,False,no,0.0,,,,0.2
+CheckList + Attribution,sst2,sentiment,roberta,temporal_sentiment,True,True,False,False,partial,0.0,0.0,,,0.5
+CheckList + Counterfactual,sst2,sentiment,roberta,temporal_sentiment,True,False,True,False,partial,0.0,,0.7270583445206285,,0.5
+X-CheckList,sst2,sentiment,roberta,temporal_sentiment,True,True,True,True,yes,0.0,0.0,0.7270583445206285,0.0,1.0

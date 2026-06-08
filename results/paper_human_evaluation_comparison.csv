@@ -1,0 +1,5 @@
+Method,Correctness,Understandability,Usefulness,Actionability,Overall Mean
+X-CheckList,5.0,4.0,4.387,4.32,4.427
+CheckList + Counterfactual,4.0,4.92,3.84,3.813,4.143
+CheckList + Attribution,4.0,4.0,3.453,3.307,3.69
+Standard CheckList,4.0,4.96,2.0,2.0,3.24

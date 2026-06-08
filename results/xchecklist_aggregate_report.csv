@@ -1,0 +1,58 @@
+dataset,task,model,capability,relation,total_tests,failed_tests,failure_rate,mean_confidence,mean_AM,mean_CS,mean_EVFS,mean_cue_attribution_ratio,main_failure_reason
+mnli,nli,bert,contradiction,directional,4,4,1.0,0.9934102147817612,0.8323438382527023,0.002105816332914401,0.8307210903287906,0.16765616174729772,"Contradiction failure: model likely underweighted contradiction markers such as not/no/nobody; AM=0.82, CS=0.00; top tokens: guitar:0.26, person:0.22, no:0.18, playing:0.16, is:0.11."
+snli,nli,bert,contradiction,directional,4,4,1.0,0.9934101849794388,0.8323438382527023,0.0021058164347778074,0.830721090052901,0.16765616174729772,"Contradiction failure: model likely underweighted contradiction markers such as not/no/nobody; AM=0.82, CS=0.00; top tokens: guitar:0.26, person:0.22, no:0.18, playing:0.16, is:0.11."
+mrpc,paraphrase,bert,word_order_sensitivity,directional,3,3,1.0,0.9876020948092142,0.7528865447552638,0.0006769640992085139,0.7523969852806408,0.24711345524473607,"Word-order sensitivity failure: model likely over-relied on overlapping terms and missed role/order reversal; AM=0.78, CS=0.00; top tokens: dog:0.23, cat:0.22, chase:0.22, can:0.17, a:0.16."
+mrpc,paraphrase,roberta,word_order_sensitivity,directional,3,3,1.0,0.9973020950953165,0.747353537830528,0.00012398286101718745,0.7472593806633991,0.25264646216947195,"Word-order sensitivity failure: model likely over-relied on overlapping terms and missed role/order reversal; AM=0.69, CS=0.00; top tokens: chase:0.31, cat:0.19, dog:0.18, can:0.16, a:0.15."
+snli,nli,roberta,lexical_overlap,directional,4,4,1.0,0.9877165257930756,0.7479331406544841,0.0022449932293966413,0.7462561956075823,0.25206685934551587,"Lexical-overlap failure: model likely over-relied on shared words rather than semantic roles/logical relation; AM=0.70, CS=0.00; top tokens: chasing:0.30, dog:0.27, a:0.17, man:0.16, is:0.10."
+mnli,nli,roberta,lexical_overlap,directional,4,4,1.0,0.9877165853977203,0.7479331406544841,0.0022449965472333133,0.7462561929916688,0.25206685934551587,"Lexical-overlap failure: model likely over-relied on shared words rather than semantic roles/logical relation; AM=0.70, CS=0.00; top tokens: chasing:0.30, dog:0.27, a:0.17, man:0.16, is:0.10."
+mrpc,paraphrase,distilbert,word_order_sensitivity,directional,3,3,1.0,0.8701658447583517,0.7436611224931194,0.005072332918643951,0.7398680019461595,0.25633887750688067,"Word-order sensitivity failure: model likely over-relied on overlapping terms and missed role/order reversal; AM=0.70, CS=0.00; top tokens: chase:0.30, can:0.21, a:0.18, dog:0.16, cat:0.14."
+qqp,paraphrase,distilbert,word_order_sensitivity,directional,3,3,1.0,0.8464544812838236,0.7497619010506478,0.013817843049764633,0.7392638216706602,0.2502380989493523,"Word-order sensitivity failure: model likely over-relied on overlapping terms and missed role/order reversal; AM=0.78, CS=0.01; top tokens: a:0.22, chase:0.22, cat:0.21, can:0.18, dog:0.17."
+mnli,nli,distilbert,lexical_overlap,directional,4,4,1.0,0.9912641197443008,0.7196479074950031,0.001204240950755775,0.7187510286021719,0.28035209250499693,"Lexical-overlap failure: model likely over-relied on shared words rather than semantic roles/logical relation; AM=0.66, CS=0.00; top tokens: chasing:0.34, dog:0.23, a:0.16, man:0.16, is:0.11."
+snli,nli,distilbert,lexical_overlap,directional,4,4,1.0,0.9912641197443008,0.7196479074950031,0.0012042416201438755,0.7187510280971545,0.28035209250499693,"Lexical-overlap failure: model likely over-relied on shared words rather than semantic roles/logical relation; AM=0.66, CS=0.00; top tokens: chasing:0.34, dog:0.23, a:0.16, man:0.16, is:0.11."
+qqp,paraphrase,distilbert,entity_invariance,invariance,4,4,1.0,0.5699290782213211,0.6983062994867034,0.01371803879737854,0.00966993608669102,0.3016937005132966,"Entity sensitivity: prediction changed or failed under irrelevant entity/name variation; invariance CS=0.01; top tokens: did:0.19, john:0.19, enjoy:0.17, like:0.15, movie:0.11."
+mnli,nli,bert,semantic_role_sensitivity,invariance,300,279,0.93,0.9076424380143483,0.465,0.0,0.0,0.0,Passed or not explained.
+snli,nli,bert,semantic_role_sensitivity,invariance,300,277,0.9233333333333333,0.9119513157010078,0.46166666666666667,0.0,0.0,0.0,Passed or not explained.
+qqp,paraphrase,bert,word_order_sensitivity,directional,3,2,0.6666666666666666,0.6253045201301575,0.5417319056206776,0.4334332936753829,0.3450628817470551,0.124934761045989,"Word-order sensitivity failure: model likely over-relied on overlapping terms and missed role/order reversal; AM=0.78, CS=0.32; top tokens: cat:0.34, dog:0.26, chase:0.22, a:0.12, can:0.06."
+qqp,paraphrase,distilbert,semantic_equivalence,invariance,300,143,0.4766666666666667,0.7262539370854696,0.23833333333333334,0.0,0.0,0.0,Passed or not explained.
+imdb,sentiment,distilbert,negation,directional,20,7,0.35,0.8985708951950073,0.2768420412167249,0.6394840324879624,0.23644263022800205,0.07315795878327506,Passed or not explained.
+mnli,nli,bert,lexical_overlap,directional,4,1,0.25,0.9416124224662781,0.195577437014598,0.27933247154578567,0.006298372193330689,0.05442256298540198,Passed or not explained.
+snli,nli,bert,lexical_overlap,directional,4,1,0.25,0.9416124522686005,0.195577437014598,0.2793324450030923,0.006298369643291139,0.05442256298540198,Passed or not explained.
+snli,nli,distilbert,semantic_role_sensitivity,invariance,300,71,0.23666666666666666,0.9652241289615631,0.11833333333333333,0.0,0.0,0.0,Passed or not explained.
+imdb,sentiment,distilbert,robustness,invariance,300,52,0.17333333333333334,0.9170967976252238,0.08666666666666667,0.04378161002726604,0.007787210105452687,0.0,Passed or not explained.
+imdb,sentiment,roberta,negation,directional,20,3,0.15,0.8632654577493668,0.12312337038218993,0.778663748622057,0.088068267711862,0.026876629617810073,Passed or not explained.
+mnli,nli,distilbert,semantic_role_sensitivity,invariance,300,44,0.14666666666666667,0.9709326692422231,0.07333333333333333,0.0,0.0,0.0,Passed or not explained.
+mrpc,paraphrase,distilbert,semantic_equivalence,invariance,300,40,0.13333333333333333,0.8727399778366088,0.06666666666666667,0.0,0.0,0.0,Passed or not explained.
+imdb,sentiment,bert,robustness,invariance,300,36,0.12,0.9776660809914272,0.06,0.04317819542552267,0.00767924882893567,0.0,Passed or not explained.
+mrpc,paraphrase,bert,semantic_equivalence,invariance,300,36,0.12,0.9053325466314952,0.06,0.0,0.0,0.0,Passed or not explained.
+snli,nli,roberta,semantic_role_sensitivity,invariance,300,35,0.11666666666666667,0.9363147290547689,0.058333333333333334,0.0,0.0,0.0,Passed or not explained.
+mnli,nli,roberta,semantic_role_sensitivity,invariance,300,29,0.09666666666666666,0.9332083167632421,0.04833333333333333,0.0,0.0,0.0,Passed or not explained.
+imdb,sentiment,roberta,robustness,invariance,300,25,0.08333333333333333,0.9540161639451981,0.041666666666666664,0.0236390758282505,0.0025587112569094945,0.0,Passed or not explained.
+mrpc,paraphrase,roberta,semantic_equivalence,invariance,300,25,0.08333333333333333,0.9358691612879435,0.041666666666666664,0.0,0.0,0.0,Passed or not explained.
+qqp,paraphrase,bert,semantic_equivalence,invariance,300,24,0.08,0.9540010078748067,0.04,0.0,0.0,0.0,Passed or not explained.
+sst2,sentiment,distilbert,robustness,invariance,300,23,0.07666666666666666,0.9800037219127019,0.03833333333333333,0.036952907957408264,0.005554050043671547,0.0,Passed or not explained.
+sst2,sentiment,bert,robustness,invariance,300,16,0.05333333333333334,0.9800161284208297,0.02666666666666667,0.022471981277534116,0.0017675376710637161,0.0,Passed or not explained.
+sst2,sentiment,roberta,robustness,invariance,300,13,0.043333333333333335,0.9802122646570206,0.021666666666666667,0.019681028897563617,0.002024433733895421,0.0,Passed or not explained.
+imdb,sentiment,bert,entity_invariance,invariance,4,0,0.0,0.989286333322525,0.0,0.0017901360988616943,0.0,0.0,Passed or not explained.
+imdb,sentiment,bert,negation,directional,20,0,0.0,0.9779309660196305,0.0,0.9583657954033697,0.0,0.0,Passed or not explained.
+imdb,sentiment,bert,temporal_sentiment,directional,4,0,0.0,0.9992091059684753,0.0,0.9586268866478349,0.0,0.0,Passed or not explained.
+imdb,sentiment,distilbert,entity_invariance,invariance,4,0,0.0,0.9848779886960983,0.0,0.0009478926658630371,0.0,0.0,Passed or not explained.
+imdb,sentiment,distilbert,temporal_sentiment,directional,4,0,0.0,0.9882415682077408,0.0,0.7592567836400121,0.0,0.0,Passed or not explained.
+imdb,sentiment,roberta,entity_invariance,invariance,4,0,0.0,0.9603001177310944,0.0,0.010249212384223938,0.0,0.0,Passed or not explained.
+imdb,sentiment,roberta,temporal_sentiment,directional,4,0,0.0,0.9969298094511032,0.0,0.7373367847758345,0.0,0.0,Passed or not explained.
+mnli,nli,distilbert,contradiction,directional,4,0,0.0,0.9991431385278702,0.0,0.9984446794042015,0.0,0.0,Passed or not explained.
+mnli,nli,roberta,contradiction,directional,4,0,0.0,0.9992056638002396,0.0,0.9977784236543812,0.0,0.0,Passed or not explained.
+mrpc,paraphrase,bert,entity_invariance,invariance,4,0,0.0,0.9488714039325714,0.0,0.017090007662773132,0.0,0.0,Passed or not explained.
+mrpc,paraphrase,distilbert,entity_invariance,invariance,4,0,0.0,0.7200497090816498,0.0,0.02960258722305298,0.0,0.0,Passed or not explained.
+mrpc,paraphrase,roberta,entity_invariance,invariance,4,0,0.0,0.9971437007188797,0.0,6.920099258422852e-05,0.0,0.0,Passed or not explained.
+qqp,paraphrase,bert,entity_invariance,invariance,4,0,0.0,0.9795487523078918,0.0,0.004321977496147156,0.0,0.0,Passed or not explained.
+snli,nli,distilbert,contradiction,directional,4,0,0.0,0.9991431385278702,0.0,0.9984446794333053,0.0,0.0,Passed or not explained.
+snli,nli,roberta,contradiction,directional,4,0,0.0,0.9992056638002396,0.0,0.9977784226066433,0.0,0.0,Passed or not explained.
+sst2,sentiment,bert,entity_invariance,invariance,4,0,0.0,0.9988592714071274,0.0,0.0001996159553527832,0.0,0.0,Passed or not explained.
+sst2,sentiment,bert,negation,directional,20,0,0.0,0.9831423401832581,0.0,0.982380385894794,0.0,0.0,Passed or not explained.
+sst2,sentiment,bert,temporal_sentiment,directional,4,0,0.0,0.9981118440628052,0.0,0.9350394271896221,0.0,0.0,Passed or not explained.
+sst2,sentiment,distilbert,entity_invariance,invariance,4,0,0.0,0.9998452663421631,0.0,2.175569534301758e-06,0.0,0.0,Passed or not explained.
+sst2,sentiment,distilbert,negation,directional,20,0,0.0,0.9897793352603912,0.0,0.9896025509155152,0.0,0.0,Passed or not explained.
+sst2,sentiment,distilbert,temporal_sentiment,directional,4,0,0.0,0.9992026537656784,0.0,0.9904886117728893,0.0,0.0,Passed or not explained.
+sst2,sentiment,roberta,entity_invariance,invariance,4,0,0.0,0.9919900298118591,0.0,0.002450406551361084,0.0,0.0,Passed or not explained.
+sst2,sentiment,roberta,negation,directional,20,0,0.0,0.9872905552387238,0.0,0.9795880307909102,0.0,0.0,Passed or not explained.
+sst2,sentiment,roberta,temporal_sentiment,directional,4,0,0.0,0.975396990776062,0.0,0.7270583445206285,0.0,0.0,Passed or not explained.

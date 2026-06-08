@@ -1,0 +1,24 @@
+{
+  "run_mode": "full",
+  "datasets_configured": [
+    "sst2",
+    "imdb",
+    "mnli",
+    "snli",
+    "qqp",
+    "mrpc"
+  ],
+  "models_configured": [
+    "distilbert",
+    "bert",
+    "roberta"
+  ],
+  "successful_runs": 17,
+  "total_test_cases": 1886,
+  "total_result_rows": 5351,
+  "total_failed_cases": 1222,
+  "overall_failure_rate": 0.22836852924686973,
+  "mean_AM": 0.11686838666651281,
+  "mean_CS": 0.03809276419790584,
+  "mean_EVFS": 0.008059805994975503
+}

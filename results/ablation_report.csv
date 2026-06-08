@@ -1,0 +1,286 @@
+dataset,task,model,capability,failure_rate,mean_AM,mean_CS,mean_EVFS,variant,removed_component,diagnostic_completeness
+imdb,sentiment,bert,entity_invariance,0.0,0.0,0.0017901360988616943,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,bert,entity_invariance,0.0,,0.0017901360988616943,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,bert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,bert,entity_invariance,0.0,0.0,0.0017901360988616943,,Without EVFS,EVFS,0.75
+imdb,sentiment,bert,entity_invariance,0.0,0.0,0.0017901360988616943,0.0,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,bert,negation,0.0,0.0,0.9583657954033697,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,bert,negation,0.0,,0.9583657954033697,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,bert,negation,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,bert,negation,0.0,0.0,0.9583657954033697,,Without EVFS,EVFS,0.75
+imdb,sentiment,bert,negation,0.0,0.0,0.9583657954033697,0.0,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,bert,robustness,0.12,0.06,0.04317819542552267,0.00767924882893567,Full X-CheckList,None,1.0
+imdb,sentiment,bert,robustness,0.12,,0.04317819542552267,0.00767924882893567,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,bert,robustness,0.12,0.06,,0.00767924882893567,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,bert,robustness,0.12,0.06,0.04317819542552267,,Without EVFS,EVFS,0.75
+imdb,sentiment,bert,robustness,0.12,0.06,0.04317819542552267,0.00767924882893567,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,bert,temporal_sentiment,0.0,0.0,0.9586268866478349,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,bert,temporal_sentiment,0.0,,0.9586268866478349,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,bert,temporal_sentiment,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,bert,temporal_sentiment,0.0,0.0,0.9586268866478349,,Without EVFS,EVFS,0.75
+imdb,sentiment,bert,temporal_sentiment,0.0,0.0,0.9586268866478349,0.0,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,distilbert,entity_invariance,0.0,0.0,0.0009478926658630371,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,distilbert,entity_invariance,0.0,,0.0009478926658630371,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,distilbert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,distilbert,entity_invariance,0.0,0.0,0.0009478926658630371,,Without EVFS,EVFS,0.75
+imdb,sentiment,distilbert,entity_invariance,0.0,0.0,0.0009478926658630371,0.0,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,distilbert,negation,0.35,0.27684204121672495,0.6394840324879624,0.23644263022800205,Full X-CheckList,None,1.0
+imdb,sentiment,distilbert,negation,0.35,,0.6394840324879624,0.23644263022800205,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,distilbert,negation,0.35,0.27684204121672495,,0.23644263022800205,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,distilbert,negation,0.35,0.27684204121672495,0.6394840324879624,,Without EVFS,EVFS,0.75
+imdb,sentiment,distilbert,negation,0.35,0.27684204121672495,0.6394840324879624,0.23644263022800205,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,distilbert,robustness,0.17333333333333334,0.08666666666666667,0.04378161002726604,0.007787210105452687,Full X-CheckList,None,1.0
+imdb,sentiment,distilbert,robustness,0.17333333333333334,,0.04378161002726604,0.007787210105452687,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,distilbert,robustness,0.17333333333333334,0.08666666666666667,,0.007787210105452687,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,distilbert,robustness,0.17333333333333334,0.08666666666666667,0.04378161002726604,,Without EVFS,EVFS,0.75
+imdb,sentiment,distilbert,robustness,0.17333333333333334,0.08666666666666667,0.04378161002726604,0.007787210105452687,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,distilbert,temporal_sentiment,0.0,0.0,0.7592567836400121,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,distilbert,temporal_sentiment,0.0,,0.7592567836400121,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,distilbert,temporal_sentiment,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,distilbert,temporal_sentiment,0.0,0.0,0.7592567836400121,,Without EVFS,EVFS,0.75
+imdb,sentiment,distilbert,temporal_sentiment,0.0,0.0,0.7592567836400121,0.0,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,roberta,entity_invariance,0.0,0.0,0.010249212384223938,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,roberta,entity_invariance,0.0,,0.010249212384223938,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,roberta,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,roberta,entity_invariance,0.0,0.0,0.010249212384223938,,Without EVFS,EVFS,0.75
+imdb,sentiment,roberta,entity_invariance,0.0,0.0,0.010249212384223938,0.0,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,roberta,negation,0.15,0.12312337038218993,0.778663748622057,0.088068267711862,Full X-CheckList,None,1.0
+imdb,sentiment,roberta,negation,0.15,,0.778663748622057,0.088068267711862,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,roberta,negation,0.15,0.12312337038218993,,0.088068267711862,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,roberta,negation,0.15,0.12312337038218993,0.778663748622057,,Without EVFS,EVFS,0.75
+imdb,sentiment,roberta,negation,0.15,0.12312337038218993,0.778663748622057,0.088068267711862,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,roberta,robustness,0.08333333333333333,0.041666666666666664,0.0236390758282505,0.0025587112569094945,Full X-CheckList,None,1.0
+imdb,sentiment,roberta,robustness,0.08333333333333333,,0.0236390758282505,0.0025587112569094945,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,roberta,robustness,0.08333333333333333,0.041666666666666664,,0.0025587112569094945,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,roberta,robustness,0.08333333333333333,0.041666666666666664,0.0236390758282505,,Without EVFS,EVFS,0.75
+imdb,sentiment,roberta,robustness,0.08333333333333333,0.041666666666666664,0.0236390758282505,0.0025587112569094945,Without Failure Reason Rules,Reason inference,0.8
+imdb,sentiment,roberta,temporal_sentiment,0.0,0.0,0.7373367847758345,0.0,Full X-CheckList,None,1.0
+imdb,sentiment,roberta,temporal_sentiment,0.0,,0.7373367847758345,0.0,Without Attribution,Attribution/AM,0.75
+imdb,sentiment,roberta,temporal_sentiment,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+imdb,sentiment,roberta,temporal_sentiment,0.0,0.0,0.7373367847758345,,Without EVFS,EVFS,0.75
+imdb,sentiment,roberta,temporal_sentiment,0.0,0.0,0.7373367847758345,0.0,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,bert,contradiction,1.0,0.8323438382527023,0.002105816332914401,0.8307210903287906,Full X-CheckList,None,1.0
+mnli,nli,bert,contradiction,1.0,,0.002105816332914401,0.8307210903287906,Without Attribution,Attribution/AM,0.75
+mnli,nli,bert,contradiction,1.0,0.8323438382527023,,0.8307210903287906,Without Counterfactual Validation,CS,0.75
+mnli,nli,bert,contradiction,1.0,0.8323438382527023,0.002105816332914401,,Without EVFS,EVFS,0.75
+mnli,nli,bert,contradiction,1.0,0.8323438382527023,0.002105816332914401,0.8307210903287906,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,bert,lexical_overlap,0.25,0.195577437014598,0.27933247154578567,0.006298372193330689,Full X-CheckList,None,1.0
+mnli,nli,bert,lexical_overlap,0.25,,0.27933247154578567,0.006298372193330689,Without Attribution,Attribution/AM,0.75
+mnli,nli,bert,lexical_overlap,0.25,0.195577437014598,,0.006298372193330689,Without Counterfactual Validation,CS,0.75
+mnli,nli,bert,lexical_overlap,0.25,0.195577437014598,0.27933247154578567,,Without EVFS,EVFS,0.75
+mnli,nli,bert,lexical_overlap,0.25,0.195577437014598,0.27933247154578567,0.006298372193330689,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,bert,semantic_role_sensitivity,0.93,0.465,0.0,0.0,Full X-CheckList,None,1.0
+mnli,nli,bert,semantic_role_sensitivity,0.93,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+mnli,nli,bert,semantic_role_sensitivity,0.93,0.465,,0.0,Without Counterfactual Validation,CS,0.75
+mnli,nli,bert,semantic_role_sensitivity,0.93,0.465,0.0,,Without EVFS,EVFS,0.75
+mnli,nli,bert,semantic_role_sensitivity,0.93,0.465,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,distilbert,contradiction,0.0,0.0,0.9984446794042015,0.0,Full X-CheckList,None,1.0
+mnli,nli,distilbert,contradiction,0.0,,0.9984446794042015,0.0,Without Attribution,Attribution/AM,0.75
+mnli,nli,distilbert,contradiction,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+mnli,nli,distilbert,contradiction,0.0,0.0,0.9984446794042015,,Without EVFS,EVFS,0.75
+mnli,nli,distilbert,contradiction,0.0,0.0,0.9984446794042015,0.0,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,0.001204240950755775,0.7187510286021719,Full X-CheckList,None,1.0
+mnli,nli,distilbert,lexical_overlap,1.0,,0.001204240950755775,0.7187510286021719,Without Attribution,Attribution/AM,0.75
+mnli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,,0.7187510286021719,Without Counterfactual Validation,CS,0.75
+mnli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,0.001204240950755775,,Without EVFS,EVFS,0.75
+mnli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,0.001204240950755775,0.7187510286021719,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,distilbert,semantic_role_sensitivity,0.14666666666666667,0.07333333333333333,0.0,0.0,Full X-CheckList,None,1.0
+mnli,nli,distilbert,semantic_role_sensitivity,0.14666666666666667,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+mnli,nli,distilbert,semantic_role_sensitivity,0.14666666666666667,0.07333333333333333,,0.0,Without Counterfactual Validation,CS,0.75
+mnli,nli,distilbert,semantic_role_sensitivity,0.14666666666666667,0.07333333333333333,0.0,,Without EVFS,EVFS,0.75
+mnli,nli,distilbert,semantic_role_sensitivity,0.14666666666666667,0.07333333333333333,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,roberta,contradiction,0.0,0.0,0.9977784236543812,0.0,Full X-CheckList,None,1.0
+mnli,nli,roberta,contradiction,0.0,,0.9977784236543812,0.0,Without Attribution,Attribution/AM,0.75
+mnli,nli,roberta,contradiction,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+mnli,nli,roberta,contradiction,0.0,0.0,0.9977784236543812,,Without EVFS,EVFS,0.75
+mnli,nli,roberta,contradiction,0.0,0.0,0.9977784236543812,0.0,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,0.0022449965472333133,0.7462561929916688,Full X-CheckList,None,1.0
+mnli,nli,roberta,lexical_overlap,1.0,,0.0022449965472333133,0.7462561929916688,Without Attribution,Attribution/AM,0.75
+mnli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,,0.7462561929916688,Without Counterfactual Validation,CS,0.75
+mnli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,0.0022449965472333133,,Without EVFS,EVFS,0.75
+mnli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,0.0022449965472333133,0.7462561929916688,Without Failure Reason Rules,Reason inference,0.8
+mnli,nli,roberta,semantic_role_sensitivity,0.09666666666666666,0.04833333333333333,0.0,0.0,Full X-CheckList,None,1.0
+mnli,nli,roberta,semantic_role_sensitivity,0.09666666666666666,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+mnli,nli,roberta,semantic_role_sensitivity,0.09666666666666666,0.04833333333333333,,0.0,Without Counterfactual Validation,CS,0.75
+mnli,nli,roberta,semantic_role_sensitivity,0.09666666666666666,0.04833333333333333,0.0,,Without EVFS,EVFS,0.75
+mnli,nli,roberta,semantic_role_sensitivity,0.09666666666666666,0.04833333333333333,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,bert,entity_invariance,0.0,0.0,0.017090007662773132,0.0,Full X-CheckList,None,1.0
+mrpc,paraphrase,bert,entity_invariance,0.0,,0.017090007662773132,0.0,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,bert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,bert,entity_invariance,0.0,0.0,0.017090007662773132,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,bert,entity_invariance,0.0,0.0,0.017090007662773132,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,bert,semantic_equivalence,0.12,0.06,0.0,0.0,Full X-CheckList,None,1.0
+mrpc,paraphrase,bert,semantic_equivalence,0.12,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,bert,semantic_equivalence,0.12,0.06,,0.0,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,bert,semantic_equivalence,0.12,0.06,0.0,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,bert,semantic_equivalence,0.12,0.06,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,bert,word_order_sensitivity,1.0,0.7528865447552638,0.0006769640992085139,0.7523969852806408,Full X-CheckList,None,1.0
+mrpc,paraphrase,bert,word_order_sensitivity,1.0,,0.0006769640992085139,0.7523969852806408,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,bert,word_order_sensitivity,1.0,0.7528865447552638,,0.7523969852806408,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,bert,word_order_sensitivity,1.0,0.7528865447552638,0.0006769640992085139,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,bert,word_order_sensitivity,1.0,0.7528865447552638,0.0006769640992085139,0.7523969852806408,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,distilbert,entity_invariance,0.0,0.0,0.02960258722305298,0.0,Full X-CheckList,None,1.0
+mrpc,paraphrase,distilbert,entity_invariance,0.0,,0.02960258722305298,0.0,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,distilbert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,distilbert,entity_invariance,0.0,0.0,0.02960258722305298,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,distilbert,entity_invariance,0.0,0.0,0.02960258722305298,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,distilbert,semantic_equivalence,0.13333333333333333,0.06666666666666667,0.0,0.0,Full X-CheckList,None,1.0
+mrpc,paraphrase,distilbert,semantic_equivalence,0.13333333333333333,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,distilbert,semantic_equivalence,0.13333333333333333,0.06666666666666667,,0.0,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,distilbert,semantic_equivalence,0.13333333333333333,0.06666666666666667,0.0,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,distilbert,semantic_equivalence,0.13333333333333333,0.06666666666666667,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,distilbert,word_order_sensitivity,1.0,0.7436611224931194,0.005072332918643951,0.7398680019461595,Full X-CheckList,None,1.0
+mrpc,paraphrase,distilbert,word_order_sensitivity,1.0,,0.005072332918643951,0.7398680019461595,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,distilbert,word_order_sensitivity,1.0,0.7436611224931194,,0.7398680019461595,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,distilbert,word_order_sensitivity,1.0,0.7436611224931194,0.005072332918643951,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,distilbert,word_order_sensitivity,1.0,0.7436611224931194,0.005072332918643951,0.7398680019461595,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,roberta,entity_invariance,0.0,0.0,6.920099258422852e-05,0.0,Full X-CheckList,None,1.0
+mrpc,paraphrase,roberta,entity_invariance,0.0,,6.920099258422852e-05,0.0,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,roberta,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,roberta,entity_invariance,0.0,0.0,6.920099258422852e-05,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,roberta,entity_invariance,0.0,0.0,6.920099258422852e-05,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,roberta,semantic_equivalence,0.08333333333333333,0.041666666666666664,0.0,0.0,Full X-CheckList,None,1.0
+mrpc,paraphrase,roberta,semantic_equivalence,0.08333333333333333,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,roberta,semantic_equivalence,0.08333333333333333,0.041666666666666664,,0.0,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,roberta,semantic_equivalence,0.08333333333333333,0.041666666666666664,0.0,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,roberta,semantic_equivalence,0.08333333333333333,0.041666666666666664,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+mrpc,paraphrase,roberta,word_order_sensitivity,1.0,0.747353537830528,0.00012398286101718745,0.7472593806633991,Full X-CheckList,None,1.0
+mrpc,paraphrase,roberta,word_order_sensitivity,1.0,,0.00012398286101718745,0.7472593806633991,Without Attribution,Attribution/AM,0.75
+mrpc,paraphrase,roberta,word_order_sensitivity,1.0,0.747353537830528,,0.7472593806633991,Without Counterfactual Validation,CS,0.75
+mrpc,paraphrase,roberta,word_order_sensitivity,1.0,0.747353537830528,0.00012398286101718745,,Without EVFS,EVFS,0.75
+mrpc,paraphrase,roberta,word_order_sensitivity,1.0,0.747353537830528,0.00012398286101718745,0.7472593806633991,Without Failure Reason Rules,Reason inference,0.8
+qqp,paraphrase,bert,entity_invariance,0.0,0.0,0.004321977496147156,0.0,Full X-CheckList,None,1.0
+qqp,paraphrase,bert,entity_invariance,0.0,,0.004321977496147156,0.0,Without Attribution,Attribution/AM,0.75
+qqp,paraphrase,bert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+qqp,paraphrase,bert,entity_invariance,0.0,0.0,0.004321977496147156,,Without EVFS,EVFS,0.75
+qqp,paraphrase,bert,entity_invariance,0.0,0.0,0.004321977496147156,0.0,Without Failure Reason Rules,Reason inference,0.8
+qqp,paraphrase,bert,semantic_equivalence,0.08,0.04,0.0,0.0,Full X-CheckList,None,1.0
+qqp,paraphrase,bert,semantic_equivalence,0.08,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+qqp,paraphrase,bert,semantic_equivalence,0.08,0.04,,0.0,Without Counterfactual Validation,CS,0.75
+qqp,paraphrase,bert,semantic_equivalence,0.08,0.04,0.0,,Without EVFS,EVFS,0.75
+qqp,paraphrase,bert,semantic_equivalence,0.08,0.04,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+qqp,paraphrase,bert,word_order_sensitivity,0.6666666666666666,0.5417319056206776,0.4334332936753829,0.3450628817470551,Full X-CheckList,None,1.0
+qqp,paraphrase,bert,word_order_sensitivity,0.6666666666666666,,0.4334332936753829,0.3450628817470551,Without Attribution,Attribution/AM,0.75
+qqp,paraphrase,bert,word_order_sensitivity,0.6666666666666666,0.5417319056206776,,0.3450628817470551,Without Counterfactual Validation,CS,0.75
+qqp,paraphrase,bert,word_order_sensitivity,0.6666666666666666,0.5417319056206776,0.4334332936753829,,Without EVFS,EVFS,0.75
+qqp,paraphrase,bert,word_order_sensitivity,0.6666666666666666,0.5417319056206776,0.4334332936753829,0.3450628817470551,Without Failure Reason Rules,Reason inference,0.8
+qqp,paraphrase,distilbert,entity_invariance,1.0,0.6983062994867034,0.01371803879737854,0.009669936086691018,Full X-CheckList,None,1.0
+qqp,paraphrase,distilbert,entity_invariance,1.0,,0.01371803879737854,0.009669936086691018,Without Attribution,Attribution/AM,0.75
+qqp,paraphrase,distilbert,entity_invariance,1.0,0.6983062994867034,,0.009669936086691018,Without Counterfactual Validation,CS,0.75
+qqp,paraphrase,distilbert,entity_invariance,1.0,0.6983062994867034,0.01371803879737854,,Without EVFS,EVFS,0.75
+qqp,paraphrase,distilbert,entity_invariance,1.0,0.6983062994867034,0.01371803879737854,0.009669936086691018,Without Failure Reason Rules,Reason inference,0.8
+qqp,paraphrase,distilbert,semantic_equivalence,0.4766666666666667,0.23833333333333334,0.0,0.0,Full X-CheckList,None,1.0
+qqp,paraphrase,distilbert,semantic_equivalence,0.4766666666666667,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+qqp,paraphrase,distilbert,semantic_equivalence,0.4766666666666667,0.23833333333333334,,0.0,Without Counterfactual Validation,CS,0.75
+qqp,paraphrase,distilbert,semantic_equivalence,0.4766666666666667,0.23833333333333334,0.0,,Without EVFS,EVFS,0.75
+qqp,paraphrase,distilbert,semantic_equivalence,0.4766666666666667,0.23833333333333334,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+qqp,paraphrase,distilbert,word_order_sensitivity,1.0,0.7497619010506478,0.013817843049764633,0.7392638216706602,Full X-CheckList,None,1.0
+qqp,paraphrase,distilbert,word_order_sensitivity,1.0,,0.013817843049764633,0.7392638216706602,Without Attribution,Attribution/AM,0.75
+qqp,paraphrase,distilbert,word_order_sensitivity,1.0,0.7497619010506478,,0.7392638216706602,Without Counterfactual Validation,CS,0.75
+qqp,paraphrase,distilbert,word_order_sensitivity,1.0,0.7497619010506478,0.013817843049764633,,Without EVFS,EVFS,0.75
+qqp,paraphrase,distilbert,word_order_sensitivity,1.0,0.7497619010506478,0.013817843049764633,0.7392638216706602,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,bert,contradiction,1.0,0.8323438382527023,0.0021058164347778074,0.830721090052901,Full X-CheckList,None,1.0
+snli,nli,bert,contradiction,1.0,,0.0021058164347778074,0.830721090052901,Without Attribution,Attribution/AM,0.75
+snli,nli,bert,contradiction,1.0,0.8323438382527023,,0.830721090052901,Without Counterfactual Validation,CS,0.75
+snli,nli,bert,contradiction,1.0,0.8323438382527023,0.0021058164347778074,,Without EVFS,EVFS,0.75
+snli,nli,bert,contradiction,1.0,0.8323438382527023,0.0021058164347778074,0.830721090052901,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,bert,lexical_overlap,0.25,0.195577437014598,0.2793324450030923,0.006298369643291139,Full X-CheckList,None,1.0
+snli,nli,bert,lexical_overlap,0.25,,0.2793324450030923,0.006298369643291139,Without Attribution,Attribution/AM,0.75
+snli,nli,bert,lexical_overlap,0.25,0.195577437014598,,0.006298369643291139,Without Counterfactual Validation,CS,0.75
+snli,nli,bert,lexical_overlap,0.25,0.195577437014598,0.2793324450030923,,Without EVFS,EVFS,0.75
+snli,nli,bert,lexical_overlap,0.25,0.195577437014598,0.2793324450030923,0.006298369643291139,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,bert,semantic_role_sensitivity,0.9233333333333333,0.46166666666666667,0.0,0.0,Full X-CheckList,None,1.0
+snli,nli,bert,semantic_role_sensitivity,0.9233333333333333,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+snli,nli,bert,semantic_role_sensitivity,0.9233333333333333,0.46166666666666667,,0.0,Without Counterfactual Validation,CS,0.75
+snli,nli,bert,semantic_role_sensitivity,0.9233333333333333,0.46166666666666667,0.0,,Without EVFS,EVFS,0.75
+snli,nli,bert,semantic_role_sensitivity,0.9233333333333333,0.46166666666666667,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,distilbert,contradiction,0.0,0.0,0.9984446794333053,0.0,Full X-CheckList,None,1.0
+snli,nli,distilbert,contradiction,0.0,,0.9984446794333053,0.0,Without Attribution,Attribution/AM,0.75
+snli,nli,distilbert,contradiction,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+snli,nli,distilbert,contradiction,0.0,0.0,0.9984446794333053,,Without EVFS,EVFS,0.75
+snli,nli,distilbert,contradiction,0.0,0.0,0.9984446794333053,0.0,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,0.0012042416201438755,0.7187510280971545,Full X-CheckList,None,1.0
+snli,nli,distilbert,lexical_overlap,1.0,,0.0012042416201438755,0.7187510280971545,Without Attribution,Attribution/AM,0.75
+snli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,,0.7187510280971545,Without Counterfactual Validation,CS,0.75
+snli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,0.0012042416201438755,,Without EVFS,EVFS,0.75
+snli,nli,distilbert,lexical_overlap,1.0,0.7196479074950031,0.0012042416201438755,0.7187510280971545,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,distilbert,semantic_role_sensitivity,0.23666666666666666,0.11833333333333333,0.0,0.0,Full X-CheckList,None,1.0
+snli,nli,distilbert,semantic_role_sensitivity,0.23666666666666666,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+snli,nli,distilbert,semantic_role_sensitivity,0.23666666666666666,0.11833333333333333,,0.0,Without Counterfactual Validation,CS,0.75
+snli,nli,distilbert,semantic_role_sensitivity,0.23666666666666666,0.11833333333333333,0.0,,Without EVFS,EVFS,0.75
+snli,nli,distilbert,semantic_role_sensitivity,0.23666666666666666,0.11833333333333333,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,roberta,contradiction,0.0,0.0,0.9977784226066433,0.0,Full X-CheckList,None,1.0
+snli,nli,roberta,contradiction,0.0,,0.9977784226066433,0.0,Without Attribution,Attribution/AM,0.75
+snli,nli,roberta,contradiction,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+snli,nli,roberta,contradiction,0.0,0.0,0.9977784226066433,,Without EVFS,EVFS,0.75
+snli,nli,roberta,contradiction,0.0,0.0,0.9977784226066433,0.0,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,0.0022449932293966413,0.7462561956075823,Full X-CheckList,None,1.0
+snli,nli,roberta,lexical_overlap,1.0,,0.0022449932293966413,0.7462561956075823,Without Attribution,Attribution/AM,0.75
+snli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,,0.7462561956075823,Without Counterfactual Validation,CS,0.75
+snli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,0.0022449932293966413,,Without EVFS,EVFS,0.75
+snli,nli,roberta,lexical_overlap,1.0,0.7479331406544841,0.0022449932293966413,0.7462561956075823,Without Failure Reason Rules,Reason inference,0.8
+snli,nli,roberta,semantic_role_sensitivity,0.11666666666666667,0.058333333333333334,0.0,0.0,Full X-CheckList,None,1.0
+snli,nli,roberta,semantic_role_sensitivity,0.11666666666666667,,0.0,0.0,Without Attribution,Attribution/AM,0.75
+snli,nli,roberta,semantic_role_sensitivity,0.11666666666666667,0.058333333333333334,,0.0,Without Counterfactual Validation,CS,0.75
+snli,nli,roberta,semantic_role_sensitivity,0.11666666666666667,0.058333333333333334,0.0,,Without EVFS,EVFS,0.75
+snli,nli,roberta,semantic_role_sensitivity,0.11666666666666667,0.058333333333333334,0.0,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,bert,entity_invariance,0.0,0.0,0.0001996159553527832,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,bert,entity_invariance,0.0,,0.0001996159553527832,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,bert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,bert,entity_invariance,0.0,0.0,0.0001996159553527832,,Without EVFS,EVFS,0.75
+sst2,sentiment,bert,entity_invariance,0.0,0.0,0.0001996159553527832,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,bert,negation,0.0,0.0,0.982380385894794,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,bert,negation,0.0,,0.982380385894794,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,bert,negation,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,bert,negation,0.0,0.0,0.982380385894794,,Without EVFS,EVFS,0.75
+sst2,sentiment,bert,negation,0.0,0.0,0.982380385894794,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,bert,robustness,0.05333333333333334,0.02666666666666667,0.022471981277534116,0.0017675376710637161,Full X-CheckList,None,1.0
+sst2,sentiment,bert,robustness,0.05333333333333334,,0.022471981277534116,0.0017675376710637161,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,bert,robustness,0.05333333333333334,0.02666666666666667,,0.0017675376710637161,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,bert,robustness,0.05333333333333334,0.02666666666666667,0.022471981277534116,,Without EVFS,EVFS,0.75
+sst2,sentiment,bert,robustness,0.05333333333333334,0.02666666666666667,0.022471981277534116,0.0017675376710637161,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,bert,temporal_sentiment,0.0,0.0,0.9350394271896221,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,bert,temporal_sentiment,0.0,,0.9350394271896221,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,bert,temporal_sentiment,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,bert,temporal_sentiment,0.0,0.0,0.9350394271896221,,Without EVFS,EVFS,0.75
+sst2,sentiment,bert,temporal_sentiment,0.0,0.0,0.9350394271896221,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,distilbert,entity_invariance,0.0,0.0,2.175569534301758e-06,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,distilbert,entity_invariance,0.0,,2.175569534301758e-06,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,distilbert,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,distilbert,entity_invariance,0.0,0.0,2.175569534301758e-06,,Without EVFS,EVFS,0.75
+sst2,sentiment,distilbert,entity_invariance,0.0,0.0,2.175569534301758e-06,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,distilbert,negation,0.0,0.0,0.9896025509155152,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,distilbert,negation,0.0,,0.9896025509155152,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,distilbert,negation,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,distilbert,negation,0.0,0.0,0.9896025509155152,,Without EVFS,EVFS,0.75
+sst2,sentiment,distilbert,negation,0.0,0.0,0.9896025509155152,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,distilbert,robustness,0.07666666666666666,0.03833333333333333,0.036952907957408264,0.005554050043671547,Full X-CheckList,None,1.0
+sst2,sentiment,distilbert,robustness,0.07666666666666666,,0.036952907957408264,0.005554050043671547,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,distilbert,robustness,0.07666666666666666,0.03833333333333333,,0.005554050043671547,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,distilbert,robustness,0.07666666666666666,0.03833333333333333,0.036952907957408264,,Without EVFS,EVFS,0.75
+sst2,sentiment,distilbert,robustness,0.07666666666666666,0.03833333333333333,0.036952907957408264,0.005554050043671547,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,distilbert,temporal_sentiment,0.0,0.0,0.9904886117728893,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,distilbert,temporal_sentiment,0.0,,0.9904886117728893,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,distilbert,temporal_sentiment,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,distilbert,temporal_sentiment,0.0,0.0,0.9904886117728893,,Without EVFS,EVFS,0.75
+sst2,sentiment,distilbert,temporal_sentiment,0.0,0.0,0.9904886117728893,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,roberta,entity_invariance,0.0,0.0,0.002450406551361084,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,roberta,entity_invariance,0.0,,0.002450406551361084,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,roberta,entity_invariance,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,roberta,entity_invariance,0.0,0.0,0.002450406551361084,,Without EVFS,EVFS,0.75
+sst2,sentiment,roberta,entity_invariance,0.0,0.0,0.002450406551361084,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,roberta,negation,0.0,0.0,0.9795880307909102,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,roberta,negation,0.0,,0.9795880307909102,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,roberta,negation,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,roberta,negation,0.0,0.0,0.9795880307909102,,Without EVFS,EVFS,0.75
+sst2,sentiment,roberta,negation,0.0,0.0,0.9795880307909102,0.0,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,roberta,robustness,0.043333333333333335,0.021666666666666667,0.019681028897563617,0.002024433733895421,Full X-CheckList,None,1.0
+sst2,sentiment,roberta,robustness,0.043333333333333335,,0.019681028897563617,0.002024433733895421,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,roberta,robustness,0.043333333333333335,0.021666666666666667,,0.002024433733895421,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,roberta,robustness,0.043333333333333335,0.021666666666666667,0.019681028897563617,,Without EVFS,EVFS,0.75
+sst2,sentiment,roberta,robustness,0.043333333333333335,0.021666666666666667,0.019681028897563617,0.002024433733895421,Without Failure Reason Rules,Reason inference,0.8
+sst2,sentiment,roberta,temporal_sentiment,0.0,0.0,0.7270583445206285,0.0,Full X-CheckList,None,1.0
+sst2,sentiment,roberta,temporal_sentiment,0.0,,0.7270583445206285,0.0,Without Attribution,Attribution/AM,0.75
+sst2,sentiment,roberta,temporal_sentiment,0.0,0.0,,0.0,Without Counterfactual Validation,CS,0.75
+sst2,sentiment,roberta,temporal_sentiment,0.0,0.0,0.7270583445206285,,Without EVFS,EVFS,0.75
+sst2,sentiment,roberta,temporal_sentiment,0.0,0.0,0.7270583445206285,0.0,Without Failure Reason Rules,Reason inference,0.8

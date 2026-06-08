@@ -1,0 +1,7 @@
+,correctness_1_to_5,correctness_1_to_5,correctness_1_to_5,understandability_1_to_5,understandability_1_to_5,understandability_1_to_5,usefulness_1_to_5,usefulness_1_to_5,usefulness_1_to_5,actionability_1_to_5,actionability_1_to_5,actionability_1_to_5
+,mean,std,count,mean,std,count,mean,std,count,mean,std,count
+method,,,,,,,,,,,,
+CheckList + Attribution,4.0,0.0,150,4.0,0.0,150,3.453,0.499,150,3.307,0.463,150
+CheckList + Counterfactual,4.0,0.0,150,4.92,0.272,150,3.84,0.368,150,3.813,0.391,150
+Standard CheckList,4.0,0.0,150,4.96,0.197,150,2.0,0.0,150,2.0,0.0,150
+X-CheckList,5.0,0.0,150,4.0,0.0,150,4.387,0.489,150,4.32,0.468,150

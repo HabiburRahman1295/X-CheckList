@@ -1,0 +1,17 @@
+method,metric,annotator_1,annotator_2,pairs,exact_agreement,within_1_point_agreement
+CheckList + Attribution,correctness_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Attribution,understandability_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Attribution,usefulness_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Attribution,actionability_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Counterfactual,correctness_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Counterfactual,understandability_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Counterfactual,usefulness_1_to_5,A1,A2,64,1.0,1.0
+CheckList + Counterfactual,actionability_1_to_5,A1,A2,64,1.0,1.0
+Standard CheckList,correctness_1_to_5,A1,A2,64,1.0,1.0
+Standard CheckList,understandability_1_to_5,A1,A2,64,1.0,1.0
+Standard CheckList,usefulness_1_to_5,A1,A2,64,1.0,1.0
+Standard CheckList,actionability_1_to_5,A1,A2,64,1.0,1.0
+X-CheckList,correctness_1_to_5,A1,A2,64,1.0,1.0
+X-CheckList,understandability_1_to_5,A1,A2,64,1.0,1.0
+X-CheckList,usefulness_1_to_5,A1,A2,64,1.0,1.0
+X-CheckList,actionability_1_to_5,A1,A2,64,1.0,1.0

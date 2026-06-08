@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.env
+*.log
+
+# Large data/model files
+data/raw/
+data/full/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Temporary outputs
+outputs/temp/
+wandb/
+.DS_Store
+
+# OS/editor
+.vscode/
+.idea/
